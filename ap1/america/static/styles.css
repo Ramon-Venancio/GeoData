@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25pt;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(0, 208, 139);
+    width: 40%;
+    height: 115px;
+    margin: 0 auto;
+}
+
+a{
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: auto 0;
+    transition: 0.4s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
