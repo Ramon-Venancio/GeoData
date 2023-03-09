@@ -7,3 +7,9 @@ def main(request):
 
 def brasil(request):
     return render(request, 'brasil.html')
+
+def mexico(request):
+    return render(request,'mexico.html')
+
+def argentina(request):
+    return render(request,'argentina.html')

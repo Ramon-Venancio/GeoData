@@ -9,25 +9,39 @@ h1 {
 
 div{
     display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-color: rgb(0, 208, 139);
-    width: 40%;
-    height: 115px;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
-    font-size: 16pt;
-    color: black;
     text-decoration: none;
-    text-align: center;
-    margin: auto 0;
-    transition: 0.4s;
+    color: black;
+    font-size: 15pt;
 }
 
-a:hover{
-    text-decoration: none;
-    color: white;
-    transition: 0.6s;
+.box-country{
+    margin: 1% 2.5%;
+    padding: 80px 5%;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.box-country:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#box-brasil{
+    background: rgb(4,171,0);
+    background: linear-gradient(0deg, rgba(4,171,0,1) 0%, rgba(255,252,0,1) 50%, rgba(15,0,233,1) 100%);
+}
+
+#box-mexico{
+    background: rgb(26,186,0);
+    background: linear-gradient(0deg, rgba(26,186,0,1) 0%, rgba(255,255,255,1) 50%, rgba(233,0,0,1) 100%);
+}
+
+#box-argentina{
+    background: rgb(0,181,255);
+    background: linear-gradient(0deg, rgba(0,181,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,181,255,1) 100%);
 }
