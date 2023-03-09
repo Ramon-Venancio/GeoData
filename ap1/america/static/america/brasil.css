@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 246);
+}
+
+nav{
+    background-color: #186A3B;
+}
+
+nav,ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 35pt;
+    margin: 0;
+}
+
+ul{
+    margin-left: 5%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+
+.texto{
+    display: flex;
+    background-color: rgb(227, 235, 242);
+    width: 80%;
+    height: 360px;
+    margin: 5% auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 15pt;
+    margin: 0 auto;
+    width: 1000pt;
+
+}
+
+#texto-etimologia{
+    display: flex;
+    flex-direction: column;
+}

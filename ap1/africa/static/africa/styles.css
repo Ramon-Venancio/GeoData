@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #17A589;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 35pt;
+    margin: 0;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px
+}
+
+#texto-inicio{
+    display: flex;
+    background-color: rgb(227, 235, 242);
+    width: 80%;
+    height: 260px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 15pt;
+    margin: 0 auto;
+    width: 1000pt;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 25pt;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+
+.box-country{
+    margin: 1% 2.5%;
+    padding: 80px 5%;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.box-country:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#box-angola{
+    background: rgb(4,171,0);
+    background: linear-gradient(45deg, rgb(171, 0, 0) 0%, rgba(255,252,0,1) 50%, rgb(0, 0, 0) 100%);
+}
+
+#box-madagascar{
+    background: rgb(26,186,0);
+    background: linear-gradient(45deg, rgb(255, 255, 255) 10%, rgb(255, 0, 0) 50%, rgb(0, 230, 61) 100%);
+}
