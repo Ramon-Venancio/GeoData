@@ -55,12 +55,13 @@ div{
 a{
     text-decoration: none;
     color: black;
-    font-size: 15pt;
+    font-size: 18pt;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
 }
 
 .box-country{
     margin: 1% 2.5%;
-    padding: 80px 5%;
+    padding: 85px 10%;
     border-radius: 20px;
     transition: 0.2s;
 }
@@ -68,19 +69,33 @@ a{
 .box-country:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    box-shadow: inset -1px 0px 31px 8px rgba(0,0,0,0.17);
+    -moz-box-shadow: inset -1px 0px 31px 8px rgba(0,0,0,0.17);
+    box-shadow: inset -1px 0px 31px 8px rgba(0,0,0,0.17);
+
 }
 
 #box-brasil{
-    background: rgb(4,171,0);
-    background: linear-gradient(45deg, rgba(4,171,0,1) 0%, rgba(255,252,0,1) 50%, rgba(15,0,233,1) 100%);
+    background-image: url(img/Rio_De_Janeiro_Jesus_statue_Brazil-architectural_landscape_wallpaper_1366x768.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #box-mexico{
-    background: rgb(26,186,0);
-    background: linear-gradient(45deg, rgba(26,186,0,1) 0%, rgba(255,255,255,1) 50%, rgba(233,0,0,1) 100%);
+    background: url(img/costa-do-caribe-mexico.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #box-argentina{
-    background: rgb(0,181,255);
-    background: linear-gradient(45deg, rgba(0,181,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,181,255,1) 100%);
+    background: url(img/cidade-da-argentina.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
