@@ -6,7 +6,7 @@ def main(request):
     return render(request,'africa/index.html')
 
 def angola(request):
-    return render(request,'angola.html')
+    return render(request,'africa/angola.html')
 
 def madagascar(request):
-    return render(request,'madagascar.html')
+    return render(request,'africa/madagascar.html')
